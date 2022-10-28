@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+.parent{
+    height: 100vh;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+     
+   
+
+}
+.child1{
+   width: 200px;
+   height:200px;
+   background: rgb(49, 137, 192);
+   align-self: flex-start;
+
+}  
+.child2{
+    width: 200px;
+    height:200px;
+    background: rgb(57, 6, 223);
+    align-self: end;
+    
+ }
+ .child3{
+    width: 200px;
+    height:200px;
+    background: rgb(68, 71, 72);
+    align-self: center;  
+ }
